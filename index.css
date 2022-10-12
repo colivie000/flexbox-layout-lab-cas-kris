@@ -1,3 +1,16 @@
 nav {
-    flex
+    display: flex;
+}
+
+div {
+    flex: 2 200px;
+}
+ 
+a {
+    flex: 1 200px;
+    
+}
+
+aside {
+    justify-content: flex-end;
 }
