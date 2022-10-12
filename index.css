@@ -1,16 +1,26 @@
-nav {
+header{
     display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    list-style: none;
 }
 
-div {
-    flex: 2 200px;
-}
+/*div {*/
+/*    flex: 2 200px;*/
+/*}*/
  
 a {
-    flex: 1 200px;
     
+    flex: 1 200px;
+    align-content:flex-end;
 }
 
 aside {
-    justify-content: flex-end;
+    justify-content: space-around;
+    width: 500px;
+    flex-direction: row-reverse;
+    align-item: stretch;
+
 }
